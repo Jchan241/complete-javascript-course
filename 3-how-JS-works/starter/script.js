@@ -1,11 +1,16 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
+function calculateAge(year) {
+  console.log(2019 - year)
+}
 
+calculateAge(1994);
 
+var retuirement = function(year) {
+  console.log(65 - (2019 - year))
+}
 
-
-
-
+retuirement(1994);
 
 
 
@@ -23,7 +28,7 @@
 
 // First scoping example
 
-/*
+
 var a = 'Hello!';
 first();
 
@@ -36,7 +41,6 @@ function first() {
         console.log(a + b + c);
     }
 }
-*/
 
 
 
